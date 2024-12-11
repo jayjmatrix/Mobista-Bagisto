@@ -34,7 +34,7 @@ return [
 
     'notifications' => [
         'description-text' => '列出所有通知',
-        'marked-success'   => '通知标记成功',
+        'marked-success'   => '所有通知已标记为已读',
         'no-record'        => '未找到记录',
         'of'               => '的',
         'per-page'         => '每页',
@@ -3663,13 +3663,14 @@ return [
                     ],
 
                     'review' => [
-                        'allow-customer-review' => '允许客户评价',
-                        'allow-guest-review'    => '允许访客评价',
-                        'display-review-count'  => '显示评级的评论计数。',
-                        'display-star-count'    => '显示评分中的星级数。',
-                        'summary'               => '概括',
-                        'title'                 => '评价',
-                        'title-info'            => '对某物进行评估或评价，通常涉及意见和反馈。',
+                        'allow-customer-review'   => '允许客户评价',
+                        'allow-guest-review'      => '允许访客评价',
+                        'censoring-reviewer-name' => '审查者姓名审查',
+                        'display-review-count'    => '显示评级的评论计数。',
+                        'display-star-count'      => '显示评分中的星级数。',
+                        'summary'                 => '概括',
+                        'title'                   => '评价',
+                        'title-info'              => '对某物进行评估或评价，通常涉及意见和反馈。',
                     ],
 
                     'attribute' => [

@@ -34,7 +34,7 @@ return [
 
     'notifications' => [
         'description-text' => 'Listar todas las notificaciones',
-        'marked-success'   => 'Notificación Marcada Exitosamente',
+        'marked-success'   => 'Todas las notificaciones han sido marcadas como leídas',
         'no-record'        => 'No se Encontraron Registros',
         'of'               => 'de',
         'per-page'         => 'Por página',
@@ -3663,13 +3663,14 @@ return [
                     ],
 
                     'review' => [
-                        'allow-customer-review' => 'Permitir reseñas de clientes',
-                        'allow-guest-review'    => 'Permitir reseñas de invitados',
-                        'display-review-count'  => 'Muestra el recuento de reseñas para las calificaciones.',
-                        'display-star-count'    => 'Muestra el recuento de estrellas en las calificaciones.',
-                        'summary'               => 'Resumen',
-                        'title'                 => 'Reseña',
-                        'title-info'            => 'Evaluación o valoración de algo, a menudo involucrando opiniones y comentarios.',
+                        'allow-customer-review'   => 'Permitir reseñas de clientes',
+                        'allow-guest-review'      => 'Permitir reseñas de invitados',
+                        'censoring-reviewer-name' => 'Censurar Nombre del Reseñador',
+                        'display-review-count'    => 'Muestra el recuento de reseñas para las calificaciones.',
+                        'display-star-count'      => 'Muestra el recuento de estrellas en las calificaciones.',
+                        'summary'                 => 'Resumen',
+                        'title'                   => 'Reseña',
+                        'title-info'              => 'Evaluación o valoración de algo, a menudo involucrando opiniones y comentarios.',
                     ],
 
                     'attribute' => [

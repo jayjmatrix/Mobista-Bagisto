@@ -34,7 +34,7 @@ return [
 
     'notifications' => [
         'description-text' => 'قائمة جميع الإشعارات',
-        'marked-success'   => 'تم وضع علامة على الإشعار بنجاح',
+        'marked-success'   => 'تم وضع علامة على جميع الإشعارات كمقروءة',
         'no-record'        => 'لم يتم العثور على سجلات',
         'of'               => 'من',
         'per-page'         => 'في الصفحة',
@@ -3663,13 +3663,14 @@ return [
                     ],
 
                     'review' => [
-                        'allow-customer-review' => 'السماح بمراجعة العملاء',
-                        'allow-guest-review'    => 'السماح بمراجعة الضيف',
-                        'display-review-count'  => 'عرض عدد المراجعة للتقييمات.',
-                        'display-star-count'    => 'عرض عدد النجوم في التقييمات.',
-                        'summary'               => 'ملخص',
-                        'title'                 => 'المراجعة',
-                        'title-info'            => 'تقييم أو تقييم شيء ما، وغالبًا ما ينطوي على آراء وتعليقات.',
+                        'allow-customer-review'   => 'السماح بمراجعة العملاء',
+                        'allow-guest-review'      => 'السماح بمراجعة الضيف',
+                        'censoring-reviewer-name' => 'إخفاء اسم المراجع',
+                        'display-review-count'    => 'عرض عدد المراجعة للتقييمات.',
+                        'display-star-count'      => 'عرض عدد النجوم في التقييمات.',
+                        'summary'                 => 'ملخص',
+                        'title'                   => 'المراجعة',
+                        'title-info'              => 'تقييم أو تقييم شيء ما، وغالبًا ما ينطوي على آراء وتعليقات.',
                     ],
 
                     'attribute' => [
