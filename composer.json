@@ -1,5 +1,5 @@
 {
-    "name": "Mobista Mobile Accessories",
+    "name": "mobista/mobile-accessories",
     "type": "project",
     "description": "Mobista Mobile Accessories",
     "keywords": [
@@ -44,7 +44,7 @@
         "pusher/pusher-php-server": "^7.0",
         "shetabit/visitor": "^4.1",
         "spatie/laravel-responsecache": "^7.4",
-        "spatie/laravel-sitemap": "^7.2"
+        "spatie/laravel-sitemap": "^7.2",
         "wontonee/razorpay": "^4.0"
     },
     "require-dev": {
